@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CatalogueImmobilier",
+  "description": "Schéma de validation pour un catalogue de biens immobiliers",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "title": "Bien",
+    "description": "Un bien immobilier",
+    "required": [
+      "id",
+      "titre",
+      "type",
+      "statut",
+      "prix",
+      "surface",
+      "nombre_pieces",
+      "adresse",
+      "caracteristiques",
+      "annee_construction",
+      "description",
+      "contact"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Identifiant unique du bien",
+        "pattern": "^B[0-9]{3}$"
+      },
+      "titre": {
+        "type": "string",
+        "description": "Titre de l'annonce",
+        "minLength": 5,
+        "maxLength": 100
+      },
+      "type": {
+        "type": "string",
+        "description": "Type de bien immobilier",
+        "enum": [
+          "appartement",
+          "villa",
+          "studio",
+          "duplex",
+          "maison",
+          "local commercial",
+          "bureau",
+          "terrain"
+        ]
+      },
+      "statut": {
+        "type": "string",
+        "description": "Statut du bien",
+        "enum": ["à vendre", "à louer", "vendu", "loué"]
+      },
+      "prix": {
+        "type": "number",
+        "description": "Prix en dinars algériens (DZD)",
+        "minimum": 1000,
+        "maximum": 500000000
+      },
+      "surface": {
+        "type": "number",
+        "description": "Surface en mètres carrés",
+        "minimum": 10,
+        "maximum": 10000
+      },
+      "nombre_pieces": {
+        "type": "integer",
+        "description": "Nombre de pièces principales",
+        "minimum": 1,
+        "maximum": 20
+      },
+      "adresse": {
+        "type": "object",
+        "description": "Adresse complète du bien",
+        "required": ["rue", "ville", "wilaya", "code_postal"],
+        "additionalProperties": false,
+        "properties": {
+          "rue": {
+            "type": "string",
+            "description": "Rue et numéro",
+            "minLength": 3
+          },
+          "ville": {
+            "type": "string",
+            "description": "Nom de la ville",
+            "minLength": 2
+          },
+          "wilaya": {
+            "type": "string",
+            "description": "Wilaya (département)",
+            "minLength": 2
+          },
+          "code_postal": {
+            "type": "string",
+            "description": "Code postal à 5 chiffres",
+            "pattern": "^[0-9]{5}$"
+          }
+        }
+      },
+      "caracteristiques": {
+        "type": "object",
+        "description": "Caractéristiques du bien",
+        "required": ["etage", "ascenseur", "parking", "balcon", "meuble"],
+        "additionalProperties": false,
+        "properties": {
+          "etage": {
+            "type": "integer",
+            "description": "Numéro d'étage (0 = rez-de-chaussée)",
+            "minimum": 0,
+            "maximum": 50
+          },
+          "ascenseur": {
+            "type": "boolean",
+            "description": "Présence d'un ascenseur"
+          },
+          "parking": {
+            "type": "boolean",
+            "description": "Présence d'un parking"
+          },
+          "balcon": {
+            "type": "boolean",
+            "description": "Présence d'un balcon ou terrasse"
+          },
+          "meuble": {
+            "type": "boolean",
+            "description": "Bien meublé ou non"
+          }
+        }
+      },
+      "annee_construction": {
+        "type": "integer",
+        "description": "Année de construction du bien",
+        "minimum": 1900,
+        "maximum": 2026
+      },
+      "description": {
+        "type": "string",
+        "description": "Description libre du bien",
+        "minLength": 10,
+        "maxLength": 500
+      },
+      "contact": {
+        "type": "string",
+        "description": "Numéro de téléphone du contact",
+        "pattern": "^0[5-7][0-9]{8}$"
+      }
+    }
+  }
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "B001",
+    "titre": "Appartement lumineux centre-ville",
+    "type": "appartement",
+    "statut": "à vendre",
+    "prix": 8500000,
+    "surface": 85,
+    "nombre_pieces": 4,
+    "adresse": {
+      "rue": "12 Rue Larbi Ben M'hidi",
+      "ville": "Oran",
+      "wilaya": "Oran",
+      "code_postal": "31000"
+    },
+    "caracteristiques": {
+      "etage": 3,
+      "ascenseur": true,
+      "parking": false,
+      "balcon": true,
+      "meuble": false
+    },
+    "annee_construction": 2010,
+    "description": "Bel appartement en plein centre-ville, lumineux et bien agencé.",
+    "contact": "0550123456"
+  },
+  {
+    "id": "B002",
+    "titre": "Villa avec jardin",
+    "type": "villa",
+    "statut": "à vendre",
+    "prix": 25000000,
+    "surface": 220,
+    "nombre_pieces": 7,
+    "adresse": {
+      "rue": "Lotissement Les Palmiers, Villa 14",
+      "ville": "Bir El Djir",
+      "wilaya": "Oran",
+      "code_postal": "31130"
+    },
+    "caracteristiques": {
+      "etage": 0,
+      "ascenseur": false,
+      "parking": true,
+      "balcon": false,
+      "meuble": false
+    },
+    "annee_construction": 2015,
+    "description": "Grande villa avec jardin arboré, garage double et piscine.",
+    "contact": "0661234567"
+  },
+  {
+    "id": "B003",
+    "titre": "Studio meublé proche université",
+    "type": "studio",
+    "statut": "à louer",
+    "prix": 18000,
+    "surface": 32,
+    "nombre_pieces": 1,
+    "adresse": {
+      "rue": "45 Rue Ahmed Zabana",
+      "ville": "Oran",
+      "wilaya": "Oran",
+      "code_postal": "31000"
+    },
+    "caracteristiques": {
+      "etage": 2,
+      "ascenseur": false,
+      "parking": false,
+      "balcon": false,
+      "meuble": true
+    },
+    "annee_construction": 2005,
+    "description": "Studio entièrement meublé, idéal pour étudiant ou jeune actif.",
+    "contact": "0770987654"
+  },
+  {
+    "id": "B004",
+    "titre": "Local commercial en rez-de-chaussée",
+    "type": "local commercial",
+    "statut": "à louer",
+    "prix": 45000,
+    "surface": 60,
+    "nombre_pieces": 2,
+    "adresse": {
+      "rue": "Boulevard Millénium, N°8",
+      "ville": "Oran",
+      "wilaya": "Oran",
+      "code_postal": "31000"
+    },
+    "caracteristiques": {
+      "etage": 0,
+      "ascenseur": false,
+      "parking": true,
+      "balcon": false,
+      "meuble": false
+    },
+    "annee_construction": 2012,
+    "description": "Local commercial idéalement situé sur artère principale, grande vitrine.",
+    "contact": "0555789012"
+  },
+  {
+    "id": "B005",
+    "titre": "Duplex moderne avec terrasse",
+    "type": "duplex",
+    "statut": "à vendre",
+    "prix": 15000000,
+    "surface": 140,
+    "nombre_pieces": 5,
+    "adresse": {
+      "rue": "Résidence Andalous, Bât C",
+      "ville": "Es Sénia",
+      "wilaya": "Oran",
+      "code_postal": "31150"
+    },
+    "caracteristiques": {
+      "etage": 4,
+      "ascenseur": true,
+      "parking": true,
+      "balcon": true,
+      "meuble": false
+    },
+    "annee_construction": 2019,
+    "description": "Duplex de standing avec grande terrasse panoramique et finitions haut de gamme.",
+    "contact": "0660345678"
+  },
+  {
+    "id": "B006",
+    "titre": "Appartement F3 à rénover",
+    "type": "appartement",
+    "statut": "à vendre",
+    "prix": 4200000,
+    "surface": 68,
+    "nombre_pieces": 3,
+    "adresse": {
+      "rue": "Cité USTO, Bloc 7",
+      "ville": "Oran",
+      "wilaya": "Oran",
+      "code_postal": "31000"
+    },
+    "caracteristiques": {
+      "etage": 1,
+      "ascenseur": false,
+      "parking": false,
+      "balcon": true,
+      "meuble": false
+    },
+    "annee_construction": 1988,
+    "description": "F3 à rénover, bon emplacement, prix attractif pour investisseur.",
+    "contact": "0551456789"
+  },
+  {
+    "id": "B007",
+    "titre": "Bureau aménagé en étage",
+    "type": "bureau",
+    "statut": "à louer",
+    "prix": 35000,
+    "surface": 45,
+    "nombre_pieces": 3,
+    "adresse": {
+      "rue": "Tour Medina, 5ème étage",
+      "ville": "Oran",
+      "wilaya": "Oran",
+      "code_postal": "31000"
+    },
+    "caracteristiques": {
+      "etage": 5,
+      "ascenseur": true,
+      "parking": true,
+      "balcon": false,
+      "meuble": true
+    },
+    "annee_construction": 2017,
+    "description": "Bureau moderne entièrement équipé, dans immeuble sécurisé avec gardiennage.",
+    "contact": "0772334455"
+  },
+  {
+    "id": "B008",
+    "titre": "Maison traditionnelle avec patio",
+    "type": "maison",
+    "statut": "à vendre",
+    "prix": 12000000,
+    "surface": 175,
+    "nombre_pieces": 6,
+    "adresse": {
+      "rue": "Rue Khemisti, N°22",
+      "ville": "Oran",
+      "wilaya": "Oran",
+      "code_postal": "31000"
+    },
+    "caracteristiques": {
+      "etage": 1,
+      "ascenseur": false,
+      "parking": false,
+      "balcon": true,
+      "meuble": false
+    },
+    "annee_construction": 1975,
+    "description": "Belle maison de style traditionnel avec patio central, très bien entretenue.",
+    "contact": "0553678901"
+  }
+]
