@@ -21,19 +21,20 @@
       "meuble": false
     },
     "annee_construction": 2010,
-    "description": "Bel appartement en plein centre-ville, lumineux et bien agencé.",
-    "contact": "0550123456"
+    "description": "Bel appartement en plein centre-ville, lumineux et bien agencé. Finitions modernes et proche de toutes commodités.",
+    "contact": "0550123456",
+    "image": "assets/b001.png"
   },
   {
     "id": "B002",
-    "titre": "Villa avec jardin",
+    "titre": "Villa avec jardin & piscine",
     "type": "villa",
     "statut": "à vendre",
     "prix": 25000000,
     "surface": 220,
     "nombre_pieces": 7,
     "adresse": {
-      "rue": "Lotissement Les Palmiers, Villa 14",
+      "rue": "Lotissement Les Palmiers",
       "ville": "Bir El Djir",
       "wilaya": "Oran",
       "code_postal": "31130"
@@ -46,12 +47,13 @@
       "meuble": false
     },
     "annee_construction": 2015,
-    "description": "Grande villa avec jardin arboré, garage double et piscine.",
-    "contact": "0661234567"
+    "description": "Grande villa contemporaine avec jardin arboré, garage double et piscine privée. Un havre de paix.",
+    "contact": "0661234567",
+    "image": "assets/b002.png"
   },
   {
     "id": "B003",
-    "titre": "Studio meublé proche université",
+    "titre": "Studio meublé Design",
     "type": "studio",
     "statut": "à louer",
     "prix": 18000,
@@ -71,19 +73,20 @@
       "meuble": true
     },
     "annee_construction": 2005,
-    "description": "Studio entièrement meublé, idéal pour étudiant ou jeune actif.",
-    "contact": "0770987654"
+    "description": "Studio entièrement meublé et équipé, idéal pour étudiant ou jeune actif cherchant le confort moderne.",
+    "contact": "0770987654",
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "B004",
-    "titre": "Local commercial en rez-de-chaussée",
+    "titre": "Local commercial Premium",
     "type": "local commercial",
     "statut": "à louer",
     "prix": 45000,
     "surface": 60,
     "nombre_pieces": 2,
     "adresse": {
-      "rue": "Boulevard Millénium, N°8",
+      "rue": "Boulevard Millénium",
       "ville": "Oran",
       "wilaya": "Oran",
       "code_postal": "31000"
@@ -96,19 +99,20 @@
       "meuble": false
     },
     "annee_construction": 2012,
-    "description": "Local commercial idéalement situé sur artère principale, grande vitrine.",
-    "contact": "0555789012"
+    "description": "Local commercial idéalement situé sur un axe majeur, grande vitrine et visibilité exceptionnelle.",
+    "contact": "0555789012",
+    "image": "https://images.unsplash.com/photo-1555529669-2269763671c0?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "B005",
-    "titre": "Duplex moderne avec terrasse",
+    "titre": "Duplex Moderne & Terrasse",
     "type": "duplex",
     "statut": "à vendre",
     "prix": 15000000,
     "surface": 140,
     "nombre_pieces": 5,
     "adresse": {
-      "rue": "Résidence Andalous, Bât C",
+      "rue": "Résidence Andalous",
       "ville": "Es Sénia",
       "wilaya": "Oran",
       "code_postal": "31150"
@@ -121,19 +125,20 @@
       "meuble": false
     },
     "annee_construction": 2019,
-    "description": "Duplex de standing avec grande terrasse panoramique et finitions haut de gamme.",
-    "contact": "0660345678"
+    "description": "Duplex de standing avec terrasse panoramique, finitions haut de gamme et vue dégagée.",
+    "contact": "0660345678",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "B006",
-    "titre": "Appartement F3 à rénover",
+    "titre": "Appartement F3 Oran Est",
     "type": "appartement",
     "statut": "à vendre",
     "prix": 4200000,
     "surface": 68,
     "nombre_pieces": 3,
     "adresse": {
-      "rue": "Cité USTO, Bloc 7",
+      "rue": "Cité USTO",
       "ville": "Oran",
       "wilaya": "Oran",
       "code_postal": "31000"
@@ -146,12 +151,13 @@
       "meuble": false
     },
     "annee_construction": 1988,
-    "description": "F3 à rénover, bon emplacement, prix attractif pour investisseur.",
-    "contact": "0551456789"
+    "description": "F3 spacieux, bon emplacement à Oran Est. Idéal pour un premier achat ou investissement locatif.",
+    "contact": "0551456789",
+    "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "B007",
-    "titre": "Bureau aménagé en étage",
+    "titre": "Bureaux Tour Medina",
     "type": "bureau",
     "statut": "à louer",
     "prix": 35000,
@@ -171,19 +177,20 @@
       "meuble": true
     },
     "annee_construction": 2017,
-    "description": "Bureau moderne entièrement équipé, dans immeuble sécurisé avec gardiennage.",
-    "contact": "0772334455"
+    "description": "Bureau moderne entièrement équipé dans un immeuble d'affaires sécurisé avec gardiennage.",
+    "contact": "0772334455",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "B008",
-    "titre": "Maison traditionnelle avec patio",
+    "titre": "Demeure Traditionnelle",
     "type": "maison",
     "statut": "à vendre",
     "prix": 12000000,
     "surface": 175,
     "nombre_pieces": 6,
     "adresse": {
-      "rue": "Rue Khemisti, N°22",
+      "rue": "Rue Khemisti",
       "ville": "Oran",
       "wilaya": "Oran",
       "code_postal": "31000"
@@ -196,7 +203,8 @@
       "meuble": false
     },
     "annee_construction": 1975,
-    "description": "Belle maison de style traditionnel avec patio central, très bien entretenue.",
-    "contact": "0553678901"
+    "description": "Maison de style traditionnel avec patio central ensoleillé. Grand charme et calme absolu.",
+    "contact": "0553678901",
+    "image": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80"
   }
 ]
